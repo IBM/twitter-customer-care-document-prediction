@@ -77,3 +77,89 @@ A set of 25 organizations which conduct customer care operations in Twitter plat
 
 ## Public data release
 During the public data release, adhering to the Twitter Developer policy for Content Redistribution, we will be releasing the Tweet IDs of each Tweet in a conversation and the Code for retrieving the actual tweet given the Tweet ID. We will also be releasing the code to obtain content from the URLs used in the conversations.
+
+## License
+
+The dataset is released under [**Apache 2.0**](https://www.apache.org/licenses/LICENSE-2.0) license. For the full
+license, see [LICENSE](LICENSE). Please cite the following paper if you
+use this dataset in your work
+
+```shell
+@inproceedings{ganhotra-etal-2020-conversational,
+    title = "Conversational Document Prediction to Assist Customer Care Agents",
+    author = "Ganhotra, Jatin  and
+      Roitman, Haggai  and
+      Cohen, Doron  and
+      Mills, Nathaniel  and
+      Gunasekara, Chulaka  and
+      Mass, Yosi  and
+      Joshi, Sachindra  and
+      Lastras, Luis  and
+      Konopnicki, David",
+    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.emnlp-main.25",
+    pages = "349--356",
+}
+```
+
+
+## Dataset Metadata
+The following table is necessary for this dataset to be indexed by search
+engines such as <a href="https://g.co/datasetsearch">Google Dataset Search</a>.
+<div itemscope itemtype="http://schema.org/Dataset">
+<table>
+  <tr>
+    <th>property</th>
+    <th>value</th>
+  </tr>
+  <tr>
+    <td>name</td>
+    <td><code itemprop="name">Twitter Conversations Dataset for Conversational Document Prediction (CDP) task</code></td>
+  </tr>
+  <tr>
+    <td>alternateName</td>
+    <td><code itemprop="alternateName">Twitter CDP dataset</code></td>
+  </tr>
+  <tr>
+    <td>url</td>
+    <td><code itemprop="url">https://github.com/IBM/twitter-customer-care-document-prediction</code></td>
+  </tr>
+  <tr>
+    <td>sameAs</td>
+    <td><code itemprop="sameAs">https://github.com/IBM/twitter-customer-care-document-prediction</code></td>
+  </tr>
+  <tr>
+    <td>description</td>
+    <td><code itemprop="description">The dataset contains the Twitter Conversations for the task of Conversational Document Prediction (CDP). The dataset includes conversations that occurred between users and customer care agents in 25 organizations on the Twitter platform. Each conversation ends with a customer care agent providing a URL to a document to resolve the issue the user is facing. The task is to predict the document given a dialog context. </code></td>
+  </tr>
+  <tr>
+    <td>provider</td>
+    <td>
+      <div itemscope itemtype="http://schema.org/Organization" itemprop="provider">
+        <table>
+          <tr>
+            <th>property</th>
+            <th>value</th>
+          </tr>
+          <tr>
+            <td>name</td>
+            <td><code itemprop="name">IBM</code></td>
+          </tr>
+          <tr>
+            <td>sameAs</td>
+            <td><code itemprop="sameAs">https://en.wikipedia.org/wiki/IBM</code></td>
+          </tr>
+        </table>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>citation</td>
+    <td><code itemprop="citation">https://www.aclweb.org/anthology/2020.emnlp-main.25</code></td>
+  </tr>
+</table>
+</div>
